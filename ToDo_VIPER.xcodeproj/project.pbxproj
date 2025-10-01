@@ -22,6 +22,7 @@
 		C299A0232E8D60BD005BA310 /* ToDo+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0222E8D60BD005BA310 /* ToDo+Preview.swift */; };
 		C299A0252E8D61B6005BA310 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0242E8D61B6005BA310 /* TestData.swift */; };
 		C299A0282E8D6E3C005BA310 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0272E8D6E3C005BA310 /* HTTPDataDownloader.swift */; };
+		C299A02A2E8D6FD1005BA310 /* TestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0292E8D6FD1005BA310 /* TestDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C299A0222E8D60BD005BA310 /* ToDo+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo+Preview.swift"; sourceTree = "<group>"; };
 		C299A0242E8D61B6005BA310 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		C299A0272E8D6E3C005BA310 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
+		C299A0292E8D6FD1005BA310 /* TestDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			children = (
 				C299A0222E8D60BD005BA310 /* ToDo+Preview.swift */,
 				C299A0242E8D61B6005BA310 /* TestData.swift */,
+				C299A0292E8D6FD1005BA310 /* TestDownloader.swift */,
 			);
 			path = TestData;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C299A02A2E8D6FD1005BA310 /* TestDownloader.swift in Sources */,
 				C299A01D2E8D0F02005BA310 /* Theme.swift in Sources */,
 				C299A0032E8D0ABB005BA310 /* ContentView.swift in Sources */,
 				C299A0232E8D60BD005BA310 /* ToDo+Preview.swift in Sources */,
