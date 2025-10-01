@@ -19,6 +19,7 @@ final class ToDo_VIPERTests: XCTestCase {
         XCTAssertEqual(decoded.id, 1)
         XCTAssertEqual(decoded.completed, false)
         XCTAssertEqual(decoded.todo, "Do something nice for someone you care about")
+    
     }
     
     
