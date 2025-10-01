@@ -17,6 +17,7 @@
 		C299A0192E8D0E24005BA310 /* SFProText.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C299A0182E8D0E24005BA310 /* SFProText.ttf */; };
 		C299A01B2E8D0E72005BA310 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C299A01A2E8D0E72005BA310 /* Colors.xcassets */; };
 		C299A01D2E8D0F02005BA310 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A01C2E8D0F02005BA310 /* Theme.swift */; };
+		C299A01F2E8D1894005BA310 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A01E2E8D1894005BA310 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		C299A0182E8D0E24005BA310 /* SFProText.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFProText.ttf; sourceTree = "<group>"; };
 		C299A01A2E8D0E72005BA310 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		C299A01C2E8D0F02005BA310 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C299A01E2E8D1894005BA310 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		C299A0112E8D0BD9005BA310 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				C299A01E2E8D1894005BA310 /* ToDo.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				C299A01D2E8D0F02005BA310 /* Theme.swift in Sources */,
 				C299A0032E8D0ABB005BA310 /* ContentView.swift in Sources */,
 				C299A0042E8D0ABB005BA310 /* ToDo_VIPERApp.swift in Sources */,
+				C299A01F2E8D1894005BA310 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
