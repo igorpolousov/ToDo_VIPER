@@ -10,7 +10,7 @@ import Foundation
 struct ToDo: Identifiable {
     let id: Int
     let toDo: String
-    let notes: String
+    let notes: String = ""
     let completed: Bool
     let userId: Int
 }
@@ -25,21 +25,22 @@ extension ToDo: Decodable {
     
     init(from decoder: any Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-        let id = try? values.decode(Int.self, forKey: .id)
-        let toDo = try? values.decode(String.self, forKey: .toDo)
-        let completed = try? values.decode(Bool.self, forKey: .completed)
-        let userId = try? values.decode(Int.self, forKey: .usesrId)
+        let rawId = try? values.decode(Int.self, forKey: .id)
+        let rawToDo = try? values.decode(String.self, forKey: .toDo)
+        let rawCompleted = try? values.decode(Bool.self, forKey: .completed)
+        let rawUserId = try? values.decode(Int.self, forKey: .usesrId)
         
-        guard let id = self.id,
-              let toDo = self.toDo,
-              let completed = self.completed,
-              let userId = self.userId
-        else {throw ToDoErrors.missingData}
+        guard let id = rawId,
+              let toDo = rawToDo,
+              let completed = rawCompleted,
+              let userId = rawUserId
+        else {throw ErrorHandler.missingData}
         
         self.id = id
         self.toDo = toDo
         self.completed = completed
         self.userId = userId
+        
     }
 }
 
