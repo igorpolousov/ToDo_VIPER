@@ -21,6 +21,7 @@
 		C299A0212E8D1D7B005BA310 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0202E8D1D7B005BA310 /* ErrorHandler.swift */; };
 		C299A0232E8D60BD005BA310 /* ToDo+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0222E8D60BD005BA310 /* ToDo+Preview.swift */; };
 		C299A0252E8D61B6005BA310 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0242E8D61B6005BA310 /* TestData.swift */; };
+		C299A0282E8D6E3C005BA310 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0272E8D6E3C005BA310 /* HTTPDataDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		C299A0202E8D1D7B005BA310 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		C299A0222E8D60BD005BA310 /* ToDo+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo+Preview.swift"; sourceTree = "<group>"; };
 		C299A0242E8D61B6005BA310 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		C299A0272E8D6E3C005BA310 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 		C299A0132E8D0C2F005BA310 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C299A0262E8D6E1C005BA310 /* DataDownloader */,
 				C299A0152E8D0CF5005BA310 /* Theme */,
 			);
 			path = Resources;
@@ -202,6 +205,14 @@
 				C299A01C2E8D0F02005BA310 /* Theme.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		C299A0262E8D6E1C005BA310 /* DataDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				C299A0272E8D6E3C005BA310 /* HTTPDataDownloader.swift */,
+			);
+			path = DataDownloader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +358,7 @@
 				C299A0032E8D0ABB005BA310 /* ContentView.swift in Sources */,
 				C299A0232E8D60BD005BA310 /* ToDo+Preview.swift in Sources */,
 				C299A0212E8D1D7B005BA310 /* ErrorHandler.swift in Sources */,
+				C299A0282E8D6E3C005BA310 /* HTTPDataDownloader.swift in Sources */,
 				C299A0042E8D0ABB005BA310 /* ToDo_VIPERApp.swift in Sources */,
 				C299A0252E8D61B6005BA310 /* TestData.swift in Sources */,
 				C299A01F2E8D1894005BA310 /* ToDo.swift in Sources */,
