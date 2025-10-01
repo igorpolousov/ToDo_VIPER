@@ -9,7 +9,7 @@ import Foundation
 
 struct ToDo: Identifiable {
     let id: Int
-    let toDo: String
+    let todo: String
     let notes: String = ""
     let completed: Bool
     let userId: Int
@@ -18,17 +18,17 @@ struct ToDo: Identifiable {
 extension ToDo: Decodable {
     private enum CodingKeys:  CodingKey {
         case id
-        case toDo
+        case todo
         case completed
-        case usesrId
+        case userId
     }
     
     init(from decoder: any Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         let rawId = try? values.decode(Int.self, forKey: .id)
-        let rawToDo = try? values.decode(String.self, forKey: .toDo)
+        let rawToDo = try? values.decode(String.self, forKey: .todo)
         let rawCompleted = try? values.decode(Bool.self, forKey: .completed)
-        let rawUserId = try? values.decode(Int.self, forKey: .usesrId)
+        let rawUserId = try? values.decode(Int.self, forKey: .userId)
         
         guard let id = rawId,
               let toDo = rawToDo,
@@ -37,7 +37,7 @@ extension ToDo: Decodable {
         else {throw ErrorHandler.missingData}
         
         self.id = id
-        self.toDo = toDo
+        self.todo = toDo
         self.completed = completed
         self.userId = userId
         
