@@ -16,6 +16,7 @@
 		C299A0172E8D0E1F005BA310 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C299A0162E8D0E1F005BA310 /* SF-Pro.ttf */; };
 		C299A0192E8D0E24005BA310 /* SFProText.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C299A0182E8D0E24005BA310 /* SFProText.ttf */; };
 		C299A01B2E8D0E72005BA310 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C299A01A2E8D0E72005BA310 /* Colors.xcassets */; };
+		C299A01D2E8D0F02005BA310 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A01C2E8D0F02005BA310 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		C299A0162E8D0E1F005BA310 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
 		C299A0182E8D0E24005BA310 /* SFProText.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFProText.ttf; sourceTree = "<group>"; };
 		C299A01A2E8D0E72005BA310 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C299A01C2E8D0F02005BA310 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				C299A0162E8D0E1F005BA310 /* SF-Pro.ttf */,
 				C299A0182E8D0E24005BA310 /* SFProText.ttf */,
 				C299A01A2E8D0E72005BA310 /* Colors.xcassets */,
+				C299A01C2E8D0F02005BA310 /* Theme.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C299A01D2E8D0F02005BA310 /* Theme.swift in Sources */,
 				C299A0032E8D0ABB005BA310 /* ContentView.swift in Sources */,
 				C299A0042E8D0ABB005BA310 /* ToDo_VIPERApp.swift in Sources */,
 			);
