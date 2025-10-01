@@ -13,6 +13,8 @@
 		C299A0082E8D0ACD005BA310 /* ToDo_VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0062E8D0ACD005BA310 /* ToDo_VIPERTests.swift */; };
 		C299A00C2E8D0AD2005BA310 /* ToDo_VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0092E8D0AD2005BA310 /* ToDo_VIPERUITests.swift */; };
 		C299A00D2E8D0AD2005BA310 /* ToDo_VIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A00A2E8D0AD2005BA310 /* ToDo_VIPERUITestsLaunchTests.swift */; };
+		C299A0172E8D0E1F005BA310 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C299A0162E8D0E1F005BA310 /* SF-Pro.ttf */; };
+		C299A0192E8D0E24005BA310 /* SFProText.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C299A0182E8D0E24005BA310 /* SFProText.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		C299A0062E8D0ACD005BA310 /* ToDo_VIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPERTests.swift; sourceTree = "<group>"; };
 		C299A0092E8D0AD2005BA310 /* ToDo_VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPERUITests.swift; sourceTree = "<group>"; };
 		C299A00A2E8D0AD2005BA310 /* ToDo_VIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C299A0162E8D0E1F005BA310 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
+		C299A0182E8D0E24005BA310 /* SFProText.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFProText.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 		C299A0152E8D0CF5005BA310 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				C299A0162E8D0E1F005BA310 /* SF-Pro.ttf */,
+				C299A0182E8D0E24005BA310 /* SFProText.ttf */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -291,7 +297,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C299A0192E8D0E24005BA310 /* SFProText.ttf in Resources */,
 				C299A0052E8D0ABB005BA310 /* Assets.xcassets in Resources */,
+				C299A0172E8D0E1F005BA310 /* SF-Pro.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
