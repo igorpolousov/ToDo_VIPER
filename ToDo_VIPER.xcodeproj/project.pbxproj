@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C299A0032E8D0ABB005BA310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0002E8D0ABB005BA310 /* ContentView.swift */; };
+		C299A0042E8D0ABB005BA310 /* ToDo_VIPERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0012E8D0ABB005BA310 /* ToDo_VIPERApp.swift */; };
+		C299A0052E8D0ABB005BA310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2999FFF2E8D0ABB005BA310 /* Assets.xcassets */; };
+		C299A0082E8D0ACD005BA310 /* ToDo_VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0062E8D0ACD005BA310 /* ToDo_VIPERTests.swift */; };
+		C299A00C2E8D0AD2005BA310 /* ToDo_VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A0092E8D0AD2005BA310 /* ToDo_VIPERUITests.swift */; };
+		C299A00D2E8D0AD2005BA310 /* ToDo_VIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299A00A2E8D0AD2005BA310 /* ToDo_VIPERUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C2999FE32E8D0AAD005BA310 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +36,13 @@
 		C2999FD52E8D0AA8005BA310 /* ToDo_VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo_VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2999FE22E8D0AAD005BA310 /* ToDo_VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDo_VIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2999FEC2E8D0AAD005BA310 /* ToDo_VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDo_VIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2999FFF2E8D0ABB005BA310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C299A0002E8D0ABB005BA310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C299A0012E8D0ABB005BA310 /* ToDo_VIPERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPERApp.swift; sourceTree = "<group>"; };
+		C299A0062E8D0ACD005BA310 /* ToDo_VIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPERTests.swift; sourceTree = "<group>"; };
+		C299A0092E8D0AD2005BA310 /* ToDo_VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPERUITests.swift; sourceTree = "<group>"; };
+		C299A00A2E8D0AD2005BA310 /* ToDo_VIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C2999FD72E8D0AA8005BA310 /* ToDo_VIPER */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDo_VIPER;
-			sourceTree = "<group>";
-		};
-		C2999FE52E8D0AAD005BA310 /* ToDo_VIPERTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDo_VIPERTests;
-			sourceTree = "<group>";
-		};
-		C2999FEF2E8D0AAD005BA310 /* ToDo_VIPERUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDo_VIPERUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C2999FD22E8D0AA8005BA310 /* Frameworks */ = {
@@ -75,9 +72,10 @@
 		C2999FCC2E8D0AA8005BA310 = {
 			isa = PBXGroup;
 			children = (
-				C2999FD72E8D0AA8005BA310 /* ToDo_VIPER */,
-				C2999FE52E8D0AAD005BA310 /* ToDo_VIPERTests */,
-				C2999FEF2E8D0AAD005BA310 /* ToDo_VIPERUITests */,
+				C299A0022E8D0ABB005BA310 /* ToDo_VIPER */,
+				C299A0142E8D0C8A005BA310 /* TestData */,
+				C299A0072E8D0ACD005BA310 /* ToDo_VIPERTests */,
+				C299A00B2E8D0AD2005BA310 /* ToDo_VIPERUITests */,
 				C2999FD62E8D0AA8005BA310 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +88,96 @@
 				C2999FEC2E8D0AAD005BA310 /* ToDo_VIPERUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C299A0022E8D0ABB005BA310 /* ToDo_VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				C299A00E2E8D0B31005BA310 /* ToDoListModule */,
+				C299A00F2E8D0B49005BA310 /* TodoDetail+EditModule */,
+				C299A0102E8D0BC6005BA310 /* Views */,
+				C299A0112E8D0BD9005BA310 /* Entities */,
+				C299A0122E8D0BF4005BA310 /* DataProvider */,
+				C299A0132E8D0C2F005BA310 /* Resources */,
+				C2999FFF2E8D0ABB005BA310 /* Assets.xcassets */,
+				C299A0002E8D0ABB005BA310 /* ContentView.swift */,
+				C299A0012E8D0ABB005BA310 /* ToDo_VIPERApp.swift */,
+			);
+			path = ToDo_VIPER;
+			sourceTree = "<group>";
+		};
+		C299A0072E8D0ACD005BA310 /* ToDo_VIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				C299A0062E8D0ACD005BA310 /* ToDo_VIPERTests.swift */,
+			);
+			path = ToDo_VIPERTests;
+			sourceTree = "<group>";
+		};
+		C299A00B2E8D0AD2005BA310 /* ToDo_VIPERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C299A0092E8D0AD2005BA310 /* ToDo_VIPERUITests.swift */,
+				C299A00A2E8D0AD2005BA310 /* ToDo_VIPERUITestsLaunchTests.swift */,
+			);
+			path = ToDo_VIPERUITests;
+			sourceTree = "<group>";
+		};
+		C299A00E2E8D0B31005BA310 /* ToDoListModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ToDoListModule;
+			sourceTree = "<group>";
+		};
+		C299A00F2E8D0B49005BA310 /* TodoDetail+EditModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "TodoDetail+EditModule";
+			sourceTree = "<group>";
+		};
+		C299A0102E8D0BC6005BA310 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C299A0112E8D0BD9005BA310 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		C299A0122E8D0BF4005BA310 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		C299A0132E8D0C2F005BA310 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C299A0152E8D0CF5005BA310 /* Theme */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C299A0142E8D0C8A005BA310 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		C299A0152E8D0CF5005BA310 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +194,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C2999FD72E8D0AA8005BA310 /* ToDo_VIPER */,
 			);
 			name = ToDo_VIPER;
 			packageProductDependencies = (
@@ -130,9 +215,6 @@
 			dependencies = (
 				C2999FE42E8D0AAD005BA310 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C2999FE52E8D0AAD005BA310 /* ToDo_VIPERTests */,
-			);
 			name = ToDo_VIPERTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +234,6 @@
 			);
 			dependencies = (
 				C2999FEE2E8D0AAD005BA310 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C2999FEF2E8D0AAD005BA310 /* ToDo_VIPERUITests */,
 			);
 			name = ToDo_VIPERUITests;
 			packageProductDependencies = (
@@ -212,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C299A0052E8D0ABB005BA310 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C299A0032E8D0ABB005BA310 /* ContentView.swift in Sources */,
+				C299A0042E8D0ABB005BA310 /* ToDo_VIPERApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C299A0082E8D0ACD005BA310 /* ToDo_VIPERTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C299A00C2E8D0AD2005BA310 /* ToDo_VIPERUITests.swift in Sources */,
+				C299A00D2E8D0AD2005BA310 /* ToDo_VIPERUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,12 +499,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.ToDo-VIPER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -437,6 +527,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,12 +536,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.ToDo-VIPER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
