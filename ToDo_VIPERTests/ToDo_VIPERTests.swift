@@ -12,14 +12,17 @@ final class ToDo_VIPERTests: XCTestCase {
     
     // Тестирование ToDo struct for JSON
     func testToDoDecoderDecodesJSON() throws {
-        let decoder = JSONDecoder()
-        let decoded = try decoder.decode(ToDo.self, from: testTodoData)
+        Task { @MainActor in // for remiving alert for nonisolated
+            let decoder = JSONDecoder()
+            let decoded = try decoder.decode(ToDo.self, from: testTodoData)
+            
+            XCTAssertEqual(decoded.userId, 152)
+            XCTAssertEqual(decoded.id, 1)
+            XCTAssertEqual(decoded.completed, false)
+            XCTAssertEqual(decoded.todo, "Do something nice for someone you care about")
+        }
         
-        XCTAssertEqual(decoded.userId, 152)
-        XCTAssertEqual(decoded.id, 1)
-        XCTAssertEqual(decoded.completed, false)
-        XCTAssertEqual(decoded.todo, "Do something nice for someone you care about")
-    
+
     }
     
     
